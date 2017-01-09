@@ -1,0 +1,16 @@
+# virtual bridge control tool
+1. brctl (ubuntu):
+   aptl-get install brctl
+
+# ethernet device control
+2. ip (ubuntu):
+   ip a, link, netns, route, ...
+
+# ethernet interface control
+3. ifconfig
+
+# network performance test
+4. iperf
+   iperf -s : server side listening
+   iperf -c [host of server] : client side to kick-off test
+
