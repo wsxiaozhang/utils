@@ -14,3 +14,7 @@
    iperf -s : server side listening
    iperf -c [host of server] : client side to kick-off test
 
+# ethernet toolkits
+5. ethtool (ubuntu):
+   apt-get install ethtool
+   ethtool -S veth-pair-peer // get one peer index of the veth pair
