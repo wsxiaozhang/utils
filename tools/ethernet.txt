@@ -6,6 +6,13 @@
 2. ip (ubuntu):
    ip a, link, netns, route, ...
 
+   bridge (ubuntu):
+   bridge link, fdb, mdb, ...
+   e.g. bridge fdb show dev xxx  //查看bridge的MAC 地址forwarding 记录
+
+   arp :
+   arp -a, -s, -d, ... //查看／增加／删除ARP缓存中的IP-MAC地址对应记录
+
 # ethernet interface control
 3. ifconfig
 
